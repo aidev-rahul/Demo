@@ -2,7 +2,7 @@
    if(!file_exists("../rahul/test.php")) {
       die("File not found");
    }else {
-      $filename = "test.php"; 
+      $filename = "test1.php"; 
       $file = fopen("../rahul/test.php","r");
       print "Opend file sucessfully";
       
